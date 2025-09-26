@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nike</title>
+    <link rel="stylesheet" href="miestilo.css">
+    <style>
+        main {
+            display: flex;              /* activa flexbox */
+            gap: 20px;                  /* espacio entre columnas */
+            margin: 20px;
+        }
+
+        article {
+            background-color: black;
+            color: white; /* para que el texto se lea bien */
+            padding: 100px;
+            border-radius: 10px;
+            flex: 3; /* ocupa más espacio */
+
+            display: flex;              /* centrado con flexbox */
+            flex-direction: column;
+            align-items: center;        /* centro horizontal */
+            justify-content: center;
+            text-align: center;
+        }
+
+        article img {
+            max-width: 300px; 
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        aside {
+            background-color: #d3d3d3; 
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sección Nike</h1>
+    </header>
+    <main>
+        <article>
+            <p>nike presenta.</p>
+            <img src="img/lebronjeinnn" alt="Lebron Jeans Nike">
+            <p>Los Nike Kobe 6 “Grinch” salieron por primera vez en diciembre de 2010 como parte del “Christmas Day Pack” de Nike.
+
+Fueron diseñados para que Kobe Bryant los usara en el juego de Navidad contra los Miami Heat.
+
+Su color verde neón con detalles rojos fue inspirado en el personaje del “Grinch” (de la película How the Grinch Stole Christmas).
+
+Se convirtieron en uno de los pares más recordados de Kobe, no solo por su diseño llamativo, sino porque marcó un antes y un después en los sneakers navideños de la NBA.
+
+En 2020, Nike los relanzó en versión Protro (una edición actualizada con mejoras en tecnología y comodidad) como homenaje tras la trágica muerte de Kobe</p>
+        </article>
+
+        <aside>
+            <h2>kobe 6 grinch</h2>
+            <p>precio de salida: 5000 mx</p>
+            <p>   fecha: 20/12/25</p>
+        </aside>
+    </main>
+    <footer>
+        <a href="ejercicio_1.html">⬅ Regresar al inicio</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro CBTIS</title>
+    <link rel="stylesheet" href="miestilo.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .formulario {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+            width: 300px;
+            text-align: center;
+        }
+
+        .formulario h2 {
+            margin-bottom: 20px;
+        }
+
+        .formulario input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #bbb;
+            border-radius: 5px;
+        }
+
+        .formulario button {
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .formulario button:hover {
+            background-color: #005bb5;
+        }
+
+        .mensaje {
+            margin-top: 15px;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="formulario">
+        <h2>Registro Selectivo CBTIS</h2>
+        <form onsubmit="registrar(event)">
+            <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+            <input type="password" id="contrasena" placeholder="Escribe tu contraseña" required>
+            <button type="submit">Registrar</button>
+        </form>
+        <p id="resultado" class="mensaje"></p>
+    </div>
+
+    <script>
+        function registrar(event) {
+            event.preventDefault(); // evita recargar la página
+            const nombre = document.getElementById("nombre").value;
+            document.getElementById("resultado").textContent =
+                "Gracias " + nombre + ", tu registro fue recibido. Te consideraremos para el selectivo.";
+        }
+    </script>
+
+</body>
+</html>

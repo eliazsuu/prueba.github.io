@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>puma</title>
+    <link rel="stylesheet" href="miestilo.css">
+    <style>
+        main {
+            display: flex;              /* activa flexbox */
+            gap: 20px;                  /* espacio entre columnas */
+            margin: 20px;
+        }
+
+        article {
+            background-color: black;
+            color: white; /* para que el texto se lea bien */
+            padding: 100px;
+            border-radius: 10px;
+            flex: 3; /* ocupa más espacio */
+
+            display: flex;              /* centrado con flexbox */
+            flex-direction: column;
+            align-items: center;        /* centro horizontal */
+            justify-content: center;
+            text-align: center;
+        }
+
+        article img {
+            max-width: 300px; 
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        aside {
+            background-color: #d3d3d3; 
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sección puma</h1>
+    </header>
+    <main>
+        <article>
+            <p>puma presenta.</p>
+            <img src="img/lamelo.webp" alt="Lebron Jeans Nike">
+            <p>Tras el éxito de los MB.01 y MB.02, Puma lanzó en 2023 los MB.03, el tercer signature shoe de LaMelo Ball.
+
+El MB.03 es el modelo más atrevido y futurista de la línea, inspirado en el estilo único de LaMelo tanto dentro como fuera de la cancha.
+
+Su diseño incluye gráficos llamativos, colores vibrantes y un look disruptivo, que refleja la personalidad extravagante del jugador.
+
+Se lanzó en varios colorways, entre los más populares: "GutterMelo", "Toxic", y ediciones especiales de colección.
+
+Los MB.03 consolidaron a LaMelo como uno de los jóvenes con mayor influencia en el mundo del basket y la cultura sneaker.</p>
+        </article>
+
+        <aside>
+            <h2>lamelo 3 hallowen</h2>
+            <p>precio de salida: 5000 mx</p>
+            <p>   fecha: 20/12/25</p>
+        </aside>
+    </main>
+    <footer>
+        <a href="ejercicio_1.html">⬅ Regresar al inicio</a>
+    </footer>
+</body>
+</html>

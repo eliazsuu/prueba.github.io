@@ -1,1 +1,107 @@
+header {
+    background-color: #dadada;
+    padding: 1%;
+    text-align: center;
+    border-top: 30px solid rgb(122, 122, 122);
+    color: rgb(20, 0, 1);
+}
+
+.imagen-inline {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* General styling for all navigation buttons */
+.navbar ul li button {
+    padding: 15px 25px; /* Adjust padding for desired size */
+    font-size: 18px;    /* Adjust font size */
+    border: none;       /* Remove default button border */
+    cursor: pointer;    /* Indicate it's clickable */
+    margin: 0 5px;      /* Add some spacing between buttons */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Specific styling for each button class (optional, for different colors) */
+.btn-nav {
+    background-color: #959da7; /* Blue background */
+    color: #333;             /* White text */
+}
+
+.btn-acercade {
+    background-color: #949199; /* Green background */
+    color: white;
+}
+
+.btn-servicios {
+    background-color: #959da7; /* Yellow background */
+    color: #333;              /* Dark text for contrast */
+}
+
+.btn-contacto {
+    background-color: #949199; /* Red background */
+    color: white;
+}
+
+/* Hover effect for all navigation buttons */
+.navbar ul li button:hover {
+    opacity: 0.9; /* Slightly reduce opacity on hover */
+}
+.navbar ul {
+    background-color: #dadada;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    border-top: 5px solid #dadada;
+}
+
+.btn.nav {
+    background-color: rgb(228, 134, 11);
+    color: rgb(4, 0, 7);
+    border: 1px solid #964414;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn.nav:hover {
+    background-color: #f0ca83;
+}
+
+.contenedor {
+    display: flex;
+    width: 100vw;
+}
+
+.articulo {
+    background-color: #ffffff;
+    flex: 3;
+    padding: 50px;
+}
+
+.pie {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.propaganda {
+    background-color: lightblue;
+    flex: 1;
+    padding: 40px;
+}
+
+body {
+    margin: 1;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    font-family: 'Times New Roman', sans-serif;
+
+}
 

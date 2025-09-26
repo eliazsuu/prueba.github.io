@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>adidas</title>
+    <link rel="stylesheet" href="miestilo.css">
+    <style>
+        main {
+            display: flex;              /* activa flexbox */
+            gap: 20px;                  /* espacio entre columnas */
+            margin: 20px;
+        }
+
+        article {
+            background-color: black;
+            color: white; /* para que el texto se lea bien */
+            padding: 100px;
+            border-radius: 10px;
+            flex: 3; /* ocupa más espacio */
+
+            display: flex;              /* centrado con flexbox */
+            flex-direction: column;
+            align-items: center;        /* centro horizontal */
+            justify-content: center;
+            text-align: center;
+        }
+
+        article img {
+            max-width: 300px; 
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        aside {
+            background-color: #d3d3d3; 
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sección adidas</h1>
+    </header>
+    <main>
+        <article>
+            <p>adidas presenta.</p>
+            <img src="img/harden" alt="Lebron Jeans Nike">
+            <p>Los Harden Vol. 9 se lanzaron en 2023, como parte de la evolución de su línea de sneakers para el básquetbol.
+
+Este modelo buscó mejorar el rendimiento en la cancha al combinar estabilidad, agarre y comodidad, pensando en el estilo de juego de Harden: cambios de ritmo, dribles rápidos y movimientos explosivos.
+
+Fueron presentados en varios colorways llamativos, incluyendo versiones inspiradas en cómics, cultura urbana y ediciones especiales para momentos de la temporada NBA.
+
+Harden los usó en la temporada 2022-2023 con los Philadelphia 76ers, destacando en los playoffs y mostrando la versatilidad del par en partidos de alto nivel.</p>
+        </article>
+
+        <aside>
+            <h2>harden 8 </h2>
+            <p>precio de salida: 3000 mx</p>
+            <p>   fecha: 20/8/24</p>
+        </aside>
+    </main>
+    <footer>
+        <a href="ejercicio_1.html">⬅ Regresar al inicio</a>
+    </footer>
+</body>
+</html>
